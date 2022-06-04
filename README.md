@@ -1,98 +1,141 @@
 # technical-documentation-project
-@ -1,10 +1,93 @@
-html{
-/* General */
+   <header>CSS Documentation</header>
+    <a class="nav-link" href="#active">active</a>
+    <a class="nav-link" href="#checked">checked</a>
+    <a class="nav-link" href="#default">default</a>
+    <a class="nav-link" href="#defined">defined</a>
+    <a class="nav-link" href="#Project_Information">Project Information</a>
+    <header id="#navtitle"><h1>CSS Documentation</h1></header>
+    <ul>
+      <li><a class="nav-link" href="#active">active</a></li>
+      <li><a class="nav-link" href="#checked">checked</a></li>
+      <li><a class="nav-link" href="#default">default</a></li>
+      <li><a class="nav-link" href="#defined">defined</a></li>
+      <li><a class="nav-link" href="#project_information">Project Information</a></li>
+    </ul>
+  </nav>
 
-html, body {
-  font-family: 'Roboto', sans-serif;
-  height: 100%;
-  margin: 0;
-}
-\
-
-/* code */
-
-code {
-  background-color: #f5f5f5;
-  display: block;
-  width: 100%;
-  margin: 0 auto;
-  font-size: 20px;
-}
-
-/* Headers */ 
-
-.main-section header {
-  font-size: 24px;
-}
-
-header {
-  font-weight: bolder;
-}
-
-#navbar h1 {
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.main-section header{
-  color: #36B1BF;
-  text-align: center;
-}
-
-/* Navbar */
-
-nav ul {
-  list-style: none;
-  font-size: 20px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  border-bottom: 2px solid white;
-}
-
-/* Positioning */
-
-#navbar {
-  width: 20%;
-  height: 100%;
-  position: fixed;
-  border-right: 5px solid #36B1BF;
-  background-color: #F2385A;
-}
-
-/* Main area */
-
-#main-doc {
-  width: 80%;
-  height: auto;
-  position: absolute;
-  right: 0;
-}
-
-.main-section {
-  width: 90%;
-  display: block;
-  white-space: pre-wrap;
-  margin: 0 auto;
-  padding-bottom: 20px;
-}
-
-/* Media query */
-
-@media (max-width: 500px) {
-  h1 {
-    font-size: 18px;
-  }
-}
-
-/* Other */
-
-hr {
-  color: #36B1BF;
-  border-top: 3px solid #36B1BF;
-  margin-top: -10px;
-} 
+  <main id="main-doc">
+    <section class="main-section" id="active">
+      <header>active</header>
+      <header><h1>active</h1></header>
+      <hr>
+      <p>The :active CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, "activation" typically starts when the user presses down the primary mouse button and ends when it is released.</p>
+      <p>The :active pseudo-class is commonly used on a and button elements, but may be used on other elements, too.</p>
+      <p>The :active CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, "activation" typically starts when the user presses down the primary mouse button and ends when it is released.</p>
+      <p>The :active pseudo-class is commonly used on a and button elements, but may be used on other elements, too.</p>
+      <p>The :active CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, "activation" typically starts when the user presses down the primary mouse button and ends when it is released.</p>
+      <p>The :active pseudo-class is commonly used on a and button elements, but may be used on other elements, too.</p>
+      <p>The :active CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, "activation" typically starts when the user presses down the primary mouse button and ends when it is released.</p>
+      <p>The :active pseudo-class is commonly used on a and button elements, but may be used on other elements, too.</p>
+      <p>The :active CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, "activation" typically starts when the user presses down the primary mouse button and ends when it is released.</p>
+      <p>The :active pseudo-class is commonly used on a and button elements, but may be used on other elements, too.</p>
+      <p>The :active CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, "activation" typically starts when the user presses down the primary mouse button and ends when it is released.</p>
+      <p>The :active pseudo-class is commonly used on a and button elements, but may be used on other elements, too.</p>
+      <p>The :active CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, "activation" typically starts when the user presses down the primary mouse button and ends when it is released.</p>
+      <p>The :active pseudo-class is commonly used on a and button elements, but may be used on other elements, too.</p>
+      <p>The :active CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, "activation" typically starts when the user presses down the primary mouse button and ends when it is released.</p>
+      <p>The :active pseudo-class is commonly used on a and button elements, but may be used on other elements, too.</p>
+      <p>The :active CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, "activation" typically starts when the user presses down the primary mouse button and ends when it is released.</p>
+      <p>The :active pseudo-class is commonly used on a and button elements, but may be used on other elements, too.</p>
+      <p>The :active CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, "activation" typically starts when the user presses down the primary mouse button and ends when it is released.</p>
+      <p>The :active pseudo-class is commonly used on a and button elements, but may be used on other elements, too.</p>
+      <p>The :active CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, "activation" typically starts when the user presses down the primary mouse button and ends when it is released.</p>
+      <p>The :active pseudo-class is commonly used on a and button elements, but may be used on other elements, too.</p>
+      <p>The :active CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, "activation" typically starts when the user presses down the primary mouse button and ends when it is released.</p>
+      <p>The :active pseudo-class is commonly used on a and button elements, but may be used on other elements, too.</p>
+      <code>:active</code>
+@@ -28,7 +53,30 @@
+      </ul>
+    </section>
+    <section class="main-section" id="checked">
+      <header>checked</header>
+      <header><h1>checked</h1></header>
+      <hr>
+      <p>The :checked CSS pseudo-class selector represents any radio, checkbox, or option element that is checked or toggled to an on state.</p>
+      <p>The user can engage this state by checking/selecting an element, or disengage it by unchecking/deselecting the element.</p>
+      <p>The :checked CSS pseudo-class selector represents any radio, checkbox, or option element that is checked or toggled to an on state.</p>
+      <p>The user can engage this state by checking/selecting an element, or disengage it by unchecking/deselecting the element.</p>
+      <p>The :checked CSS pseudo-class selector represents any radio, checkbox, or option element that is checked or toggled to an on state.</p>
+      <p>The user can engage this state by checking/selecting an element, or disengage it by unchecking/deselecting the element.</p>
+      <p>The :checked CSS pseudo-class selector represents any radio, checkbox, or option element that is checked or toggled to an on state.</p>
+      <p>The user can engage this state by checking/selecting an element, or disengage it by unchecking/deselecting the element.</p>
+      <p>The :checked CSS pseudo-class selector represents any radio, checkbox, or option element that is checked or toggled to an on state.</p>
+      <p>The user can engage this state by checking/selecting an element, or disengage it by unchecking/deselecting the element.</p>
+      <p>The :checked CSS pseudo-class selector represents any radio, checkbox, or option element that is checked or toggled to an on state.</p>
+      <p>The user can engage this state by checking/selecting an element, or disengage it by unchecking/deselecting the element.</p>
+      <p>The :checked CSS pseudo-class selector represents any radio, checkbox, or option element that is checked or toggled to an on state.</p>
+      <p>The user can engage this state by checking/selecting an element, or disengage it by unchecking/deselecting the element.</p>
+      <p>The :checked CSS pseudo-class selector represents any radio, checkbox, or option element that is checked or toggled to an on state.</p>
+      <p>The user can engage this state by checking/selecting an element, or disengage it by unchecking/deselecting the element.</p>
+      <p>The :checked CSS pseudo-class selector represents any radio, checkbox, or option element that is checked or toggled to an on state.</p>
+      <p>The user can engage this state by checking/selecting an element, or disengage it by unchecking/deselecting the element.</p>
+      <p>The :checked CSS pseudo-class selector represents any radio, checkbox, or option element that is checked or toggled to an on state.</p>
+      <p>The user can engage this state by checking/selecting an element, or disengage it by unchecking/deselecting the element.</p>
+      <p>The :checked CSS pseudo-class selector represents any radio, checkbox, or option element that is checked or toggled to an on state.</p>
+      <p>The user can engage this state by checking/selecting an element, or disengage it by unchecking/deselecting the element.</p>
+      <p>The :checked CSS pseudo-class selector represents any radio, checkbox, or option element that is checked or toggled to an on state.</p>
+      <p>The user can engage this state by checking/selecting an element, or disengage it by unchecking/deselecting the element.</p>
+      <code>:checked</code>
+@@ -39,19 +87,88 @@
+      </ul>
+    </section>
+    <section class="main-section" id="default">
+      <header>default</header>
+      <header><h1>default</h1></header>
+      <hr>
+      <p>The :default CSS pseudo-class represents any form element that is the default among a group of related elements.</p>
+      <p>This selector may be used on the button, checkbox, radio, and option elements.</p>
+      <p>The :default CSS pseudo-class represents any form element that is the default among a group of related elements.</p>
+      <p>This selector may be used on the button, checkbox, radio, and option elements.</p>
+      <p>The :default CSS pseudo-class represents any form element that is the default among a group of related elements.</p>
+      <p>This selector may be used on the button, checkbox, radio, and option elements.</p>
+      <p>The :default CSS pseudo-class represents any form element that is the default among a group of related elements.</p>
+      <p>This selector may be used on the button, checkbox, radio, and option elements.</p>
+      <p>The :default CSS pseudo-class represents any form element that is the default among a group of related elements.</p>
+      <p>This selector may be used on the button, checkbox, radio, and option elements.</p>
+      <p>The :default CSS pseudo-class represents any form element that is the default among a group of related elements.</p>
+      <p>This selector may be used on the button, checkbox, radio, and option elements.</p>
+      <p>The :default CSS pseudo-class represents any form element that is the default among a group of related elements.</p>
+      <p>This selector may be used on the button, checkbox, radio, and option elements.</p>
+      <p>The :default CSS pseudo-class represents any form element that is the default among a group of related elements.</p>
+      <p>This selector may be used on the button, checkbox, radio, and option elements.</p>
+      <p>The :default CSS pseudo-class represents any form element that is the default among a group of related elements.</p>
+      <p>This selector may be used on the button, checkbox, radio, and option elements.</p>
+      <p>The :default CSS pseudo-class represents any form element that is the default among a group of related elements.</p>
+      <p>This selector may be used on the button, checkbox, radio, and option elements.</p>
+      <p>The :default CSS pseudo-class represents any form element that is the default among a group of related elements.</p>
+      <p>This selector may be used on the button, checkbox, radio, and option elements.</p>
+      <p>The :default CSS pseudo-class represents any form element that is the default among a group of related elements.</p>
+      <p>This selector may be used on the button, checkbox, radio, and option elements.</p>
+      <code>:default</code>
+    </section>
+    <section class="main-section" id="defined">
+      <header>defined</header>
+      <header><h1>defined</h1></header>
+      <hr>
+      <p>The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).</p>
+      <p>Isn't that cool?</p>
+      <p>The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).</p>
+      <p>Isn't that cool?</p>
+      <p>The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).</p>
+      <p>Isn't that cool?</p>
+      <p>The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).</p>
+      <p>Isn't that cool?</p>
+      <p>The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).</p>
+      <p>Isn't that cool?</p>
+      <p>The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).</p>
+      <p>Isn't that cool?</p>
+      <p>The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).</p>
+      <p>Isn't that cool?</p>
+      <p>The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).</p>
+      <p>Isn't that cool?</p>
+      <p>The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).</p>
+      <p>Isn't that cool?</p>
+      <p>The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).</p>
+      <p>Isn't that cool?</p>
+      <p>The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).</p>
+      <p>Isn't that cool?</p>
+      <p>The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).</p>
+      <p>Isn't that cool?</p>
+      <code>:defined</code
